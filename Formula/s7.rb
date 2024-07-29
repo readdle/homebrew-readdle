@@ -4,9 +4,9 @@ class S7 < Formula
   homepage "https://github.com/readdle/system7"
   license "MIT"
 
-  url "https://github.com/readdle/system7/releases/download/v1.0/s7"
-  sha256 "fcbcc4d2cefa5ed9e3bf8e2bcd13ab016ced2ec7bb52f245d8c4fbc5ccc9adcb"
-  version "1.0" # have to specify version explicitly as automatic detection is confused by 7 in the name of s7 :)
+  url "https://github.com/readdle/system7/releases/download/v1.1.0/s7.tar.gz"
+  sha256 "ad93276c351c0ee47996b91970ccf8fb3ae11fba53856a9102b082ad6398a8ea"
+  version "1.1.0" # have to specify version explicitly as automatic detection is confused by 7 in the name of s7 :)
 
   def install
     bin.install "s7"
